@@ -1,0 +1,66 @@
+
+
+http://blog.ricardofilipe.com/post/react-enzyme-tdd-tutorial
+https://www.robinwieruch.de/tips-to-learn-react-redux/
+https://www.robinwieruch.de/the-road-to-learn-react/
+
+npm init -y.
+
+mkdir src dist test
+
+npm install webpack --save
+
+npm i babel-register babel-loader babel-core babel-preset-react babel-preset-es2015 react react-dom --save-dev
+`-- UNMET PEER DEPENDENCY webpack@1 || 2 || ^2.1.0-beta || ^2.2.0-rc
+
+npm WARN babel-loader@6.4.1 requires a peer of webpack@1 || 2 || ^2.1.0-beta || ^2.2.0-rc but none was installed.
+npm WARN ReactWithTest@1.0.0 No description
+npm WARN ReactWithTest@1.0.0 No repository field.
+
+
+npm i mocha chai sinon enzyme react-addons-test-utils --save-dev
+
+npm i jsdom --save-dev
+
+
+npm install webpack-dev-server --save 
+or global
+npm install webpack-dev-server -g
+
+npm install webpack webpack-dev-server -g
+npm install css-loader style-loader
+webpack-dev-server ./entry --hot --inline --module-bind "css=style\!css"
+npm install  webpack-node-externals webpack-shell-plugin --save-dev
+npm install strip-ansi --save
+
+npm install redux react-redux babel-polyfill --save
+
+https://www.robinwieruch.de/tips-to-learn-react-redux/
+     https://medium.com/javascript-inside/the-elegance-of-react-ebc21a2dcd19
+     https://hughfdjackson.com/javascript/why-curry-helps/
+     https://scotch.io/tutorials/build-a-bookshop-with-react-redux-i-react-redux-flow
+     https://www.youtube.com/watch?v=VJ38wSFbM3A
+
+npm install ramda --save
+http://randycoulman.com/blog/2016/02/16/using-ramda-with-redux/
+
+npm install reselect --save
+https://github.com/reactjs/reselect
+
+Testing -----
+http://blog.ricardofilipe.com/post/react-enzyme-tdd-tutorial
+
+
+Reacte Native : 
+https://facebook.github.io/react-native/docs/tutorial.html#this-app-doesn-t-do-very-much
+
+
+MVC
+https://www.infoq.com/articles/no-more-mvc-frameworks
+
+NPM :
+http://www.marcusoft.net/2015/08/npm-scripting-configs-and-arguments.html
+https://css-tricks.com/why-npm-scripts/
+
+npm install --save-dev node-sass
+npm i -D onchange

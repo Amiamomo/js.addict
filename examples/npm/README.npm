@@ -1,0 +1,11 @@
+NPM :
+http://www.marcusoft.net/2015/08/npm-scripting-configs-and-arguments.html
+https://css-tricks.com/why-npm-scripts/
+
+
+npm i -D parallelshell --save-dev
+
+"scripts": {
+  ...
+  "watch:all": "parallelshell 'npm run serve' 'npm run watch:css' 'npm run watch:js'"
+}
