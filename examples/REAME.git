@@ -1,0 +1,3 @@
+git: sync local repo with remote one
+
+    git fetch --prune
