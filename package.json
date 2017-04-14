@@ -5,7 +5,7 @@
   "main": "index.js",
   "watch": {
     "examples": "{examples}/*.js"
-  },
+  }, 
   "scripts": {
     "start": "webpack-dev-server --progress --inline -w --hot",
     "test": "mocha --compilers js:babel-register --require ./test/helpers.js --require ./test/dom.js --recursive",
