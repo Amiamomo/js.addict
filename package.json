@@ -17,6 +17,8 @@
     "examples": "node examples/extend1.js",
     "watch1": "nodemon -e js -x 'node examples/extend1.js'",
     "watch:example": "onchange **/*.js -- npm run example {{changed}}",
+    "build:js": "npm run lint &amp;&amp; npm run uglify",
+    "watch:js": "onchange src/js/*.js -- npm run build:js",
     "build:scss": "node-sass --output-style compressed -o dist/css src/scss",
     "watch:scss": "onchange src/scss/*.scss -- npm run build:scss"
   },
